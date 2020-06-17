@@ -1,16 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SPA Imobiliária
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Projeto criado com a finalidade de estudos de ReactJS
 
 
-# SPA-Imobiliaria
+### Imagens
+
+![image](https://user-images.githubusercontent.com/53828295/84847907-8254d700-b028-11ea-8400-828f5be52567.png)
+
+#### Projeto desenvolvido com:
+[ReactJs](https://pt-br.reactjs.org/)
+
+
+##### E componentes como:
+[React ImageGallery](https://github.com/xiaolin/react-image-gallery)
+[React InputMask](https://github.com/sanniassin/react-input-mask)
+[React SmoothScroll](hhttps://github.com/iamdustan/smoothscroll)
+
+
+### Como usar
+Primeiro baixe o projeto para seu computador como o comando:
+```sh
+$ git clone git@github.com:finrold/SpaReactImobiliaria.git
+```
+
+Depois de baixar abre o terminal e digite o caminho onde está a pasta web.
+#### Startando o Projeto:
+```sh
+$ cd /web
+$ npm start
+```
+
