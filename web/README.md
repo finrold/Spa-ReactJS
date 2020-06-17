@@ -13,8 +13,10 @@ Projeto criado com a finalidade de estudos de ReactJS
 
 ##### E componentes como:
 [React ImageGallery](https://github.com/xiaolin/react-image-gallery)
+
 [React InputMask](https://github.com/sanniassin/react-input-mask)
-[React SmoothScroll](hhttps://github.com/iamdustan/smoothscroll)
+
+[React SmoothScroll](https://github.com/iamdustan/smoothscroll)
 
 
 ### Como usar
