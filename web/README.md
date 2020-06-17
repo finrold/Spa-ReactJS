@@ -32,3 +32,8 @@ $ cd /web
 $ npm start
 ```
 
+##### Melhorias futuras:
+
+* Implementação de página de Login;
+* Implementação de envio de formulário.
+
