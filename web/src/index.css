@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+strong {
+    font-size: 25px;
+    color: rgb(83,46,3);
+}
+.nav {
+    background: #C7A406;
+}
+.nav a {
+    text-align: center;
+    padding: 10px 0;
+    color: #FFF;
+}
+
+.nav a:hover{
+    background: #BD943D;
+}
+.address {
+    text-align: center;
+}
+.address .whatsapp{
+    vertical-align: middle;
+
+}
+.image-gallery {
+    float: left;
+}
+.information {
+    float: right;
+}
+.information li {
+    list-style: none;
+    line-height: 35px;
+    padding-left: 20px;
+
+}
+.footer {
+    display: flex;
+    width: 100%;
+    background: rgba(199, 164, 6, 0.80);
+    padding: 15px 5%;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+/* Small */
+@media screen and (max-width: 480px) {
+   .header{
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 15px;
+       background: #efefef;
+   }
+    .nav{
+        display: none;
+        flex-direction: column;
+        order: 2;
+        margin-top: 8px;
+    }
+    .nav a {
+        width: 100%;
+        
+    }
+    
+    .buttonMob{
+        order:1;
+        text-align: right;
+        padding: 5px 5% 5px 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+
+    .address{
+        order: 3;
+        padding: 1px 5%;
+        margin-top: 8px;
+        line-height: 35px;
+        
+        background: #C7A406;
+        color: white;
+
+    }
+
+    
+
+    .image-gallery {
+        
+        width: 90%;
+        margin: 0 5%;
+        
+    }
+    .information {
+       
+        width: 90%;
+        margin: 20px 5%;
+    }
+    
+    .mapsImovel {
+        float: left;
+        width: 100%;
+        margin: 20px 0;
+        
+    }
+    .mapsImovel iframe{
+        width: 100%;
+        height: 300px;
+        border: none;
+    }
+    
+    
+    .footer div:nth-child(1){
+        flex-grow: 1;
+        text-align: center;
+    }
+    .footer div:nth-child(2){
+        flex-grow: 5;
+        color: #fff;
+    }
+}
+/* Medium */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .nav{
+        display: none;
+        flex-direction: column;
+        
+    }
+    .nav a {
+        width: 100%;
+        
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        background: #efefef;
+    }
+     .nav{
+         display: none;
+         flex-direction: column;
+         order: 2;
+     }
+     .nav a {
+         width: 100%;
+         
+     }
+     
+     .buttonMob{
+         order:1;
+         text-align: right;
+         padding: 20px 5% 20px 0;
+     }
+
+     .logo {
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+
+    .address{
+        order: 3;
+        padding: 1px 5%;
+        margin-top: 8px;
+        line-height: 35px;
+        
+        background: #C7A406;
+        color: white;
+
+    }
+
+   
+
+    .image-gallery {
+        
+        width: 80%;
+        margin: 0 10%;
+        
+    }
+
+    .information {
+        
+        width: 80%;
+        margin: 20px 10%;
+    }
+    
+    .mapsImovel {
+        float: left;
+        width: 100%;
+        margin: 20px 0;
+        
+    }
+    .mapsImovel iframe{
+        width: 100%;
+        height: 300px;
+        border: none;
+    }
+   
+    
+    .footer div:nth-child(1){
+        flex-grow: 1;
+        text-align: center;
+    }
+    .footer div:nth-child(2){
+        flex-grow: 5;
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+    .header{
+        float: left;
+        width: 100%;
+        background: #efefef;
+        box-shadow: 0 2px 10px #999999;
+        margin-bottom: 25px;
+    }
+    .nav{
+        display: flex;
+        
+    }
+    .nav a {
+        width: 25%;
+        
+    }
+    
+    
+    .buttonMob{
+        display: none;
+    }
+
+    .logo {
+        float: left;
+        width: 30%;
+        padding: 15px 0 15px 10%;
+    }
+
+   
+    .address{
+        float: left;
+        width: 70%;
+        padding: 20px 5% 10px 20%;
+        line-height: 35px;
+        
+    }
+
+   
+    .image-gallery {
+        
+        width: 52%;
+        margin: 0 4%;
+        
+    }
+
+    .information {
+        
+        width: 40%;
+    }
+    
+    .mapsImovel {
+        float: left;
+        width: 100%;
+        margin: 35px 0;
+        
+    }
+    .mapsImovel iframe{
+        width: 100%;
+        height: 300px;
+        border: none;
+    }
+    
+    
+    .footer div:nth-child(1){
+        flex-grow: 1;
+        text-align: center;
+    }
+    .footer div:nth-child(2){
+        flex-grow: 5;
+        color: #fff;
+    }
+}
+/*XLarges screeens*/
+@media screen and (min-width: 1200px) {
+    .header{
+        float: left;
+        width: 100%;
+        background: #efefef;
+        box-shadow: 0 2px 10px #999999;
+        margin-bottom: 25px;
+    }
+    .nav{
+        display: flex;
+        
+    }
+    .nav a {
+        width: 25%;
+    }
+    .buttonMob{
+        display: none;
+    }
+
+    .logo {
+        float: left;
+        width: 30%;
+        padding: 15px 0 15px 10%;
+    }
+    
+
+    .address{
+        float: left;
+        width: 70%;
+        padding: 20px 5% 10px 20%;
+        line-height: 35px;
+        
+    }
+
+    
+
+    .image-gallery {
+        
+        width: 46%;
+        margin: 0 7%;
+    }
+    .information {
+        
+        width: 40%;
+    }
+    
+    .mapsImovel {
+        float: left;
+        width: 100%;
+        margin: 35px 0;
+        
+    }
+    .mapsImovel iframe{
+        width: 100%;
+        height: 400px;
+        border: none;
+    }
+    
+    
+    .footer div:nth-child(1){
+        flex-grow: 1;
+        text-align: center;
+    }
+    .footer div:nth-child(2){
+        flex-grow: 5;
+        color: #fff;
+    }
+    .formulario{
+        display: flex;
+        width: 50%;
+        margin: 20px 25%;
+        flex-direction: column;
+    }
+    .formulario h1 {
+        color: #C7A406;
+        text-align: center;
+        font-size: 30px;
+    }
+    .formulario input{
+        margin: 6px 0;
+        height: 40px;
+        color: #333;
+    }
+    .formulario input[type='text'],
+    .formulario input[type='tel'],
+    .formulario input[type='email']{
+        width: 100%;
+        padding:0 5px ;
+    }
+    .formulario input[type='submit']{
+        background: #C7A406;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        width: 30%;
+    }
+    .formulario textarea{
+        width: 100%;
+        height: 150px;
+        color: #333;
+        padding: 5px;
+    }
+}
